@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.file-upload {
+    display: flex;
+    gap: 10px;
+}
+
+button, input[type="file"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 1000px; /* 允许更宽的容器 */
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between; /* 在左右两侧分布 */
+}
+
+.text-area-container {
+    flex: 2; /* 左侧输入输出框占据较大空间 */
+    margin-right: 20px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 调整按钮间距 */
+    flex: 1; /* 右侧按钮组占据较小空间 */
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    resize: none;
+    height: 100%; /* 使文本框填满容器高度 */
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between; /* 均匀分布 */
+    align-items: flex-start; /* 顶部对齐 */
+}
+
+.text-area-container {
+    flex: 2; /* 输入输出框占据较大空间 */
+    margin-right: 20px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 均匀分布按钮 */
+    flex: 1; /* 按钮组占据较小空间 */
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    resize: none;
+}
+
+.file-upload {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px; /* 为上传文件区域添加间距 */
+}
+
+button, input[type="file"] {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

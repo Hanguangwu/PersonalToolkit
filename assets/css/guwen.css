@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* .output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 300px;
+    overflow: hidden;
+    white-space: pre-wrap;
+} */
+
+.output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 300px;
+    overflow: hidden;
+    white-space: pre-wrap; /* 保留空格和换行 */
+    word-break: break-all; /* 支持长单词换行 */
+    overflow-wrap: break-word; /* 支持短语换行 */
+    line-height: 1.5; /* 设置行高，增加可读性 */
+}
+
+.output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 300px;
+    overflow: hidden;
+    white-space: pre-wrap; /* 保留空格和换行 */
+    word-break: break-all; /* 支持多语言的长单词换行 */
+    overflow-wrap: break-word; /* 确保短语换行 */
+    line-height: 1.5; /* 设置行高 */
+    letter-spacing: 0.5px; /* 调整字距，提高可读性 */
+}
+
+/* 竖排样式 */
+.vertical-text {
+    writing-mode: vertical-rl; /* 竖排从右到左 */
+    text-align: center;
+}

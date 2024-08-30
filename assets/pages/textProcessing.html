@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文本处理</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/mainPage/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/mainPage/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/mainPage/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="../css/controls.css">
+    <link rel="stylesheet" href="../css/dateTime.css">
+
+    <script type="module">
+        import { initDateTime } from '../js/dateTime.js';
+        initDateTime();
+    </script>
+</head>
+
+<body>
+
+    <h1>文本处理工具箱</h1>
+
+    <div class="icon-container">
+
+        <div class="icon-box">
+            <img src="../images/website-icons/text-text-control_81229.png" alt="文本格式修正">
+            <a href="../tools/textFormProcess.html" target="_blank">文本格式修正</a>
+            <p>添加**和＃。</p>
+        </div>
+
+        <div class="icon-box">
+            <img src="../images/website-icons/text_edit_icon_153727.png" alt="盘古之白">
+            <a href="../tools/textPangu.html" target="_blank">中文排版</a>
+            <p>盘古之白，自动排版。</p>
+        </div>
+
+        <div class="icon-box">
+            <img src="../images/website-icons/text_edit_14943.png" alt="空格清除行动">
+            <a href="../tools/textStripSpace.html" target="_blank">空格清除行动</a>
+            <p>在线去除空格。</p>
+        </div>
+
+        <div class="icon-box">
+            <img src="../images/website-icons/android-chrome-192x192.png" alt="正残转换">
+            <a href="../tools/textOpencc.html" target="_blank">正残转换</a>
+            <p>繁简转换。</p>
+        </div>
+
+        <div class="icon-box">
+            <img src="../images/website-icons/android-chrome-192x192.png" alt="竖排格式">
+            <a href="../tools/guwen.html" target="_blank">竖排格式</a>
+            <p>古文竖排格式。</p>
+        </div>
+
+        <!-- 添加更多文本处理相关图标 -->
+
+    </div>
+
+    <!-- 引入控制面板 -->
+    <div id="controls-container">
+        <!-- 引入控制面板 HTML -->
+        <div class="controls">
+            <button id="theme-toggle">切换为黑暗模式</button>
+            <button id="scroll-top">回到顶部</button>
+            <button id="eye-care-toggle">护眼模式</button>
+        </div>
+    </div>
+
+    <script src="../js/controls.js"></script>
+
+
+</body>
+</html>

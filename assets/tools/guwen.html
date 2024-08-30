@@ -1,0 +1,79 @@
+<!-- <!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/guwen.css">
+    <title>竖排文本</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-title">竖排文本</h1>
+        
+        <textarea id="inputText" placeholder="请输入文本..." rows="10"></textarea>
+        
+        <div class="controls">
+            <label for="fontSelect">选择字体:</label>
+            <select id="fontSelect">
+                <option value="serif">Serif</option>
+                <option value="sans-serif">Sans-serif</option>
+                <option value="monospace">Monospace</option>
+            </select>
+
+            <label for="fontSize">字号:</label>
+            <input type="number" id="fontSize" value="40" min="10" max="72">
+
+            <label for="pageHeight">页面高度:</label>
+            <input type="number" id="pageHeight" value="500" min="200" max="1000">
+        </div>
+
+        <button id="convertButton">转换为竖排</button>
+        <button id="exportTxtButton">导出为 TXT</button>
+        <button id="exportSvgButton">导出为 SVG</button>
+
+        <div id="output" class="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>竖排文本</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-title">竖排文本</h1>
+        
+        <textarea id="inputText" placeholder="请输入文本..." rows="10"></textarea>
+        
+        <div class="controls">
+            <label for="fontSelect">选择字体:</label>
+            <select id="fontSelect">
+                <option value="serif">Serif</option>
+                <option value="sans-serif">Sans-serif</option>
+                <option value="monospace">Monospace</option>
+            </select>
+
+            <label for="fontSize">字号:</label>
+            <input type="number" id="fontSize" value="16" min="10" max="72">
+
+            <label for="pageHeight">页面高度:</label>
+            <input type="number" id="pageHeight" value="500" min="200" max="1000">
+        </div>
+
+        <button id="exportTxtButton">导出为 TXT</button>
+        <button id="exportSvgButton">导出为 SVG</button>
+
+        <div id="output" class="output"></div>
+    </div>
+
+    <script src="../js/guwen.js"></script>
+</body>
+</html>
+

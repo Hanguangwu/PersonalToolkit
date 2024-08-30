@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中文转换器</title>
+    <link rel="stylesheet" href="../css/textOpencc.css">
+    <script src="https://cdn.jsdelivr.net/npm/opencc-js@1.0.5/dist/umd/full.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/pinyin@4.0.0-alpha.2/lib/pinyin-web.min.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <h1>中文转换器</h1>
+        <textarea id="inputText" placeholder="请输入文本..."></textarea>
+        <textarea id="outputText" placeholder="转换结果..." readonly></textarea>
+        <div class="buttons">
+            <button id="toTraditional">简体转繁体</button>
+            <button id="toSimplified">繁体转简体</button>
+            <!-- <button id="toPinyin">输出为普通拼音</button> -->
+            <button id="copyText">复制全文</button>
+            <button id="clearText">清除文本</button>
+            <button id="exportTXT">导出为TXT文件</button>
+        </div>
+    </div>
+    <script src="../js/textOpencc.js"></script>
+</body>
+</html>
