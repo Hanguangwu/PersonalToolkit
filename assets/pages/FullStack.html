@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/page.css">
     <link rel="stylesheet" href="../css/controls.css">
     <link rel="stylesheet" href="../css/dateTime.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
 
     <script type="module">
         import { initDateTime } from '../js/dateTime.js';
@@ -17,19 +18,14 @@
 
 <body>
 
+    <div id="sidebar">
+        <h2>目录</h2>
+        <!-- 动态生成的锚点将被添加到这里 -->
+    </div>
+
     <h1>Full Stack</h1>
 
     <div class="icon-container">
-
-        <div class="icon-box">
-
-            <img src="https://favicon.im/cn.vuejs.org" alt="cn.vuejs.org favicon" />
-
-            <a href="https://cn.vuejs.org/" target="_blank">cn.vuejs.org</a>
-
-            <p>Vue 官方中文文档</p>
-
-        </div>
 
         <div class="icon-box">
 
@@ -48,16 +44,6 @@
             <a href="https://react.docschina.org/" target="_blank">react.docschina.org</a>
 
             <p>React 官方中文文档</p>
-
-        </div>
-
-        <div class="icon-box">
-
-            <img src="https://react-icons.github.io/react-icons/favicon.png" alt="JavaGuide">
-
-            <a href="https://react-icons.github.io/react-icons/" target="_blank">React Icons</a>
-
-            <p>react-icons</p>
 
         </div>
 
@@ -91,6 +77,21 @@
 
         </div>
 
+    </div>
+    <h1>Icons</h1>
+
+    <div class="icon-container">
+
+        <div class="icon-box">
+
+            <img src="https://react-icons.github.io/react-icons/favicon.png" alt="JavaGuide">
+
+            <a href="https://react-icons.github.io/react-icons/" target="_blank">React Icons</a>
+
+            <p>react-icons</p>
+
+        </div>
+
         <div class="icon-box">
 
             <img src="https://favicon.im/favicon.im" alt="favicon.im favicon" />
@@ -101,7 +102,18 @@
 
         </div>
 
+        <div class="icon-box">
+
+            <img src="https://favicon.im/ant-design.antgroup.com" alt="ant-design.antgroup.com favicon" />
+            
+            <a href="https://ant-design.antgroup.com/" target="_blank">ant-design</a>
+            
+            <p>ant-design</p>
+            
+            </div>
+
     </div>
+
 
     <!-- 引入控制面板 -->
     <div id="controls-container">
@@ -114,6 +126,7 @@
     </div>
 
     <script src="../js/controls.js"></script>
+    <script src="../js/sidebar.js"></script>
 
 </body>
 

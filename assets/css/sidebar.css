@@ -1,0 +1,23 @@
+/* sidebar.css */
+#sidebar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    z-index: 1000; /* 确保在其它内容之上 */
+}
+
+#sidebar a {
+    display: block;
+    margin: 5px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+}
